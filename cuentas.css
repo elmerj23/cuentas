@@ -80,7 +80,6 @@ footer{
     color: antiquewhite;
     font-size: 14px;
     letter-spacing: 2px;
-    box-shadow: 3px 2px 3px 3px antiquewhite;
+    box-shadow: 3px 2px 3px 3px rgb(246, 235, 221);
 }
 
-}
