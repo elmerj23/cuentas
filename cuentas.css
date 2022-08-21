@@ -1,0 +1,86 @@
+*{
+box-sizing:border-box;
+padding:0;
+margin:0;}
+
+body{
+    background-color: black;
+    color: cyan;
+}
+
+header{
+    width: 94%;
+    min-width: 150px;
+    min-height: 152px;
+    font: 1em sans-serif;
+    font-size: 17px;
+    border: 1px solid #1d8f3b;
+    padding: 6px;
+    box-shadow: 1px 5px 12px 4px #888888;
+    margin-left: 13px;
+    border-radius: 28px;
+}
+header h1{
+    font-family: cursive;
+    color: darkturquoise;
+    text-align: center;
+    font-size: 30px;
+    
+    
+    font-style: italic;
+    letter-spacing: 5px;
+    font-family: auto;
+    font-weight: bold;
+    box-shadow: 2px 3px 10px 3px;
+}
+header h2{
+    text-align: center;
+    font-size: 19px;
+    font-family: cursive;
+    color: deepskyblue;
+    font-style: italic;
+    letter-spacing: 5px;
+    font-family: auto;
+    font-weight: bold;
+    box-shadow: 2px 3px 10px 3px;
+}
+
+main{
+    margin-top: 27px;
+    margin-left: 22px;
+}
+section.main-conteiner h2{
+    margin-top: 13px;
+}
+section.resultados{
+    width: 94%;
+    min-width: 150px;
+    text-align: center;
+    font: 1em sans-serif;
+    font-size: 16px;
+    border: 1px solid #888888;
+    box-shadow: 1px 5px 12px 4px #3a6e25;
+    margin-left: 13px;
+    margin-right: 4px;
+    border-radius: 17px;
+    background-color: #1d3434;
+    color: #0cf11e;
+}
+section.resultados p{
+    box-shadow: 1px 1px 1px 1px #3a6e25;
+}
+form{
+display: grid;
+width:30%;}
+form .inputFecha{
+width:114px;
+}
+footer{
+    text-align: center;
+    color: antiquewhite;
+    font-size: 14px;
+    letter-spacing: 2px;
+    box-shadow: 3px 2px 3px 3px antiquewhite;
+}
+
+}
