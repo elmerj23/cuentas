@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="description" content=" Realiza tus cuentas diarias"/>
+<meta name="robots"content="index,follow">
+<meta name ="viewport" content="width =device-width , inictial-scale=1.0"/>
+ <link  rel="stylesheet" href="cuentas.css" />
+<title>Control de presupuesto Mensual|Realizado por Sergio Michel</title>
+
+</head>
+<body>
+<header>
+<h1>Calcula tus gastos mensuales</h1>
+<h2>Gestiona tu dinero </h2>
+</header>
+
+	<main>
+		
+<section class="main-fecha">
+<h3>Comienza con el mes que vas a gestionar</h3>
+<form>
+<label class="fecha" for="imputMonth">Coloca el Mes</label>
+<input class="inputFecha" id="inputMonth" type="month" placeholder="Mes"/>
+<label class="Ingreso" for="imputIngresos">Coloca el Monto de tus Ingresos</label>
+<input id="inputIngresos" type="number" placeholder="$ 0"/>
+</form>
+</section>
+<section class="resultados">
+	<p class="ingresosT"id="ingresosT"></p>
+	<p class="respuesta"id="respuesta"></p>
+	<p class="saldo"id="saldoT"></p>
+	<p class="endeudamiento"id="endeudamientoT"></p>
+	</section>
+<section class="main-conteiner">
+<h2>
+A continuacion coloca tus deudas.<hr>
+</h2>
+
+<h3>Gastos de vivienda</h3>
+<form class="vivienda" >
+<label for="inputLuz">Luz  </label>
+
+<input id="inputLuz" type="number" placeholder="$"/>
+<label for="inputAgua">Agua  </label>
+<input id="inputAgua" type="number" placeholder="$"/>
+<label for="inputGas">Gas  </label>
+<input id="inputGas" type="number" placeholder="$"/>
+<label for="inputInternet">Internet  </label>
+<input id="inputInternet" type="number" placeholder="$"/>
+<label for="inputTv">TV(,Cable,Netflix,Amazon,Youtube)  </label>
+<input id="inputTv" type="number" placeholder="$"/>
+<label for="inputImpuestos">Impuestos  </label>
+<input id="inputImpuestos" type="number" placeholder="$"/>
+<label for="inputAlquiler">Alquiler  </label>
+<input id="inputAlquiler" type="number" placeholder="$"/>
+</form>
+</section>
+
+<section class="gastos">
+<h3>Gastos Varios</h3>
+<form class="Varios" >
+
+<label for="inputTarjetas">tarjetas (trajetas,creditos)</label>
+<input id="inputTarjetas" type="number" placeholder="$"/>
+<label for="inputEstudios">Estudios(colegio,facultad) </label>
+<input id="inputEstudios" type="number" placeholder="$"/>
+<label for="inputDeportes">Deportes  </label>
+<input id="inputDeportes" type="number" placeholder="$"/>
+<label for="inputTelefono"> Telefono </label>
+<input id="inputTelefono" type="number" placeholder="$"/>
+<label for="inputOtros">Otros Gastos </label>
+<input id="inputOtros" type="number" placeholder="$"/>
+<button type="button" onclick="onClickButtonCalcular()">
+Calcular</button>
+</form>
+</section>
+
+</main>
+<footer>
+	copyright Sergiomichel23@gmail.com
+</footer>
+
+<script src="cuentas.js"></script>
+</body>
+
+</html>
